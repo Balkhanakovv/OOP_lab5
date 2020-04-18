@@ -22,7 +22,6 @@ namespace WinForms_Galery
             GraphicsPath graphicsPath = new GraphicsPath();
             graphicsPath.AddEllipse(new Rectangle(0, 0, Width - 1, Height - 1));
             Region = new Region(graphicsPath);
-
         }
     }
 }

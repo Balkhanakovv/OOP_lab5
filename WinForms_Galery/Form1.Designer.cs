@@ -36,7 +36,7 @@
             // 
             this.galeryCircle1.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.galeryCircle1.ForeColor = System.Drawing.Color.White;
-            this.galeryCircle1.Location = new System.Drawing.Point(152, 169);
+            this.galeryCircle1.Location = new System.Drawing.Point(95, 103);
             this.galeryCircle1.Name = "galeryCircle1";
             this.galeryCircle1.Size = new System.Drawing.Size(200, 200);
             this.galeryCircle1.TabIndex = 2;
@@ -47,7 +47,7 @@
             // 
             this.galery1.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.galery1.ForeColor = System.Drawing.Color.White;
-            this.galery1.Location = new System.Drawing.Point(522, 169);
+            this.galery1.Location = new System.Drawing.Point(503, 103);
             this.galery1.Name = "galery1";
             this.galery1.Size = new System.Drawing.Size(200, 200);
             this.galery1.TabIndex = 3;
