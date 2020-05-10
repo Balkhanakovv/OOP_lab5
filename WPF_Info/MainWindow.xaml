@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <local:Info Width="310" Height="200" EName="Владимир" ESurname="Балханаков" EAge="19" ECompany="СибГУТИ" EImg="resources/123.jpg" BorderBrush="Aqua" BorderThickness="3"/>
+        <local:Info Width="Auto" Height="Auto" EName="Владимир" ESurname="Балханаков" EAge="19" ECompany="СибГУТИ" EImg="resources/345.jpg" BorderBrush="Aqua" BorderThickness="3" Margin="234,143,239,94"/>
 
     </Grid>
 </Window>
