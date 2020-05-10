@@ -16,7 +16,7 @@ namespace WinForms_Galery
 
         private string text = "";
 
-        public Galery()
+        public Galery() : base()
         {
             
         }
@@ -63,7 +63,7 @@ namespace WinForms_Galery
                     bitmap = new Bitmap(Properties.Resources.image3);
                     break;
             }
-                
+
             pevent.Graphics.DrawImage(bitmap, 0, 0);
             
             stringFormat = new StringFormat();

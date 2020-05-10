@@ -13,10 +13,10 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0">
-            <TextBlock x:Name="Name" Margin="5" FontSize="14" FontWeight="Bold" FontFamily="Microsoft YaHei UI"  Text="{Binding Path=Name}"/>
-            <TextBlock x:Name="Surname" Margin="5" FontSize="14" FontWeight="Bold" FontFamily="Microsoft YaHei UI" Text="{Binding Path=Surname}"/>
-            <TextBlock x:Name="Age" Margin="5" FontSize="14" FontFamily="Microsoft YaHei UI" Text="{Binding Path=Age}"/>
-            <TextBlock x:Name="Company" Margin="5" FontSize="14" FontFamily="Microsoft YaHei UI" Text="{Binding Path=Company}"/>
+            <TextBlock x:Name="EmpName" Margin="5" FontSize="14" FontWeight="Bold" FontFamily="Microsoft YaHei UI"/>
+            <TextBlock x:Name="EmpSurname" Margin="5" FontSize="14" FontWeight="Bold" FontFamily="Microsoft YaHei UI"/>
+            <TextBlock x:Name="EmpAge" Margin="5" FontSize="14" FontFamily="Microsoft YaHei UI"/>
+            <TextBlock x:Name="EmpCompany" Margin="5" FontSize="14" FontFamily="Microsoft YaHei UI"/>
         </StackPanel>
 
         <StackPanel Grid.Column="1" Orientation="Vertical">
