@@ -12,9 +12,9 @@ namespace WinForms_Galery
     {
         public Bitmap bitmap { get; }
 
-        public string visibleText { get; }
+        public string visibleText { private set; get; }
 
-        public string  text = "";
+        public string text = "";
 
         public Node() { }
 
@@ -29,20 +29,17 @@ namespace WinForms_Galery
     {
         private int i = 0;
 
-        List<Node> galery = new List<Node>();
+        public List<Node> galery = new List<Node>();
 
         public Galery() : base()
         {
-            galery.Add(new Node(new Bitmap(Properties.Resources.image1), "картинка 1"));
-            galery.Add(new Node(new Bitmap(Properties.Resources.image2), "картинка 2"));
-            galery.Add(new Node(new Bitmap(Properties.Resources.image3), "картинка 3"));
+            
         }
 
         protected override void OnMouseEnter(EventArgs e)
         {
             base.OnMouseEnter(e);
             galery[i].text = galery[i].visibleText;
-
         }
 
         protected override void OnMouseLeave(EventArgs e)
