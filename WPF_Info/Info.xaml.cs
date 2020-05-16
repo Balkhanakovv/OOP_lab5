@@ -23,10 +23,6 @@ namespace WPF_Info
         public Info()
         {
             InitializeComponent();
-
-            CallBt.Click += CallBt_Click;
-            WriteBt.Click += WriteBt_Click;
-            AddBt.Click += AddBt_Click;
         }
 
         //=======================Emp Name===========================================================
